@@ -1,0 +1,8 @@
+install:
+    stack install (make sure lib-pcap is installed)
+
+run:
+    ./tsuru-exe --file-path input.pcap
+
+or
+    ./tsuru-exe --file-path  input.pcap --r
